@@ -1,0 +1,8 @@
+version: "3"
+services:
+  config:
+    image: hyness/spring-cloud-config-server
+    ports:
+      - 8888:8888
+    environment:
+      - SPRING_CLOUD_CONFIG_SERVER_GIT_URI=https://github.com/diagorascandosa/config
