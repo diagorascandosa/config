@@ -1,0 +1,4 @@
+env: dev
+region: uk
+favourites:
+  color: blue
