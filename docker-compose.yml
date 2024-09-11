@@ -7,4 +7,4 @@ services:
     environment:
       - SPRING_CLOUD_CONFIG_SERVER_GIT_LABEL=main
       - SPRING_CLOUD_CONFIG_SERVER_GIT_URI=https://github.com/diagorascandosa/config
-      - SPRING_CLOUD_CONFIG_SERVER_GIT_SEARCH-PATHS={application}
+      - SPRING_CLOUD_CONFIG_SERVER_GIT_SEARCH-PATHS="{region}(_){profile}"
